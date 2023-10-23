@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Montserrat:wght@500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #f8f8f8;
+    font-family: 'Josefin Sans', sans-serif;;
+}
+
+#chat_section {
+    width: 934px;
+    max-width: 90%;
+    background-color: #fff;
+    box-shadow: 11px 14px 19px #786d6dfc;
+}
+
+#brond{
+
+    padding: 7px;
+    background: #f1f1f1;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+#brond h1{
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #444;
+    margin-left: 10px;
+}
+
+#brond img{
+    height: 117px;
+}
+
+#message_area{
+
+    height: 500px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding-top: 40px;
+
+}
+
+ #textarea{
+    width: 100%;
+    border: none;
+    padding: 20px;
+    font-size: 16px;
+    outline: none;
+    background: #bfb0ab33;
+    color: #473833;
+    font-weight: 600;
+}
+/*
+#message_area .incoming_message{
+    background-color: #8d6e63;
+    color: #fff;
+    padding: 20px;
+    border-radius: 4px;
+    margin-bottom: 40px;
+    max-width: 300px;
+    position: relative;
+   
+}
+
+#message_area .outgoing_message{
+
+   
+
+     background-color: #bfb0ab;
+    padding: 20px;
+    border-radius: 4px;
+    margin-bottom: 40px;
+    max-width: 300px;
+    position: relative;
+    margin-left: auto; */
+
+
+/* #message_area h4{
+    position: absolute;
+    top: -25px;
+    left: 0;
+    color: #5c463f;
+    font-size: 20px;
+} */
+
+/* 
+.message {
+    padding: 20px; 
+    border-radius: 4px; 
+    margin-bottom: 40px;
+    max-width: 300px;
+    position: relative;
+}   */
+.incoming {
+    background-color: #8d6e63;
+    color: #fff;
+    padding: 20px;
+    border-radius: 4px;
+    margin-bottom: 40px;
+    max-width: 300px;
+    position: relative;
+    
+}
+ .outgoing {
+    background-color: #bfb0ab;
+    padding: 20px;
+    border-radius: 4px;
+    margin-bottom: 40px;
+    max-width: 300px;
+    position: relative;
+    margin-left: auto;
+}
+.message h4 {
+    position: absolute;
+    top: -25px;
+    left: 0;
+    color: #5c463f;
+    font-size: 20px;
+}
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
